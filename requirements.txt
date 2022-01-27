@@ -18,7 +18,8 @@ matplotcheck
 Flask
 gunicorn==20.0.4
 uwsgi
-cudnn
+nbgrader
+nbclean
 streamlit
 
 
