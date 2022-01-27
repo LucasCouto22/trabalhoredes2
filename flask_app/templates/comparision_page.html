@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Your code here -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="col-lg-8  offset-lg-2"></div>
+                <h1>Comparision 2x Upscale</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="col-lg-13">
+                <h3 class="mt-5">Low Res Input ({{original_width}}x{{original_height}})</h3>
+                <img src="{{ url_for('video_feed') }}" width="100%">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="col-lg-13">
+                <h3 class="mt-5">Generated High Res ({{target_width}}x{{target_height}})</h3>
+                <img src="{{ url_for('upscale_2x') }}" width="100%">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col">
+            <div class="col-lg-13">
+                <h3 class="mt-5">OpenCV Resized High Res ({{target_width}}x{{target_height}})</h3>
+                <img src="{{ url_for('test_upscale') }}" width="100%">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="col-lg-13">
+                <h3 class="mt-5">Generated High Res ({{target_width}}x{{target_height}})</h3>
+                <img src="{{ url_for('upscale_2x') }}" width="100%">
+
+                <!-- <h3 class="mt-5">Original High Res ({{target_width}}x{{target_height}})</h3>
+                <img src="{{ url_for('high_res') }}" width="100%"> -->
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
