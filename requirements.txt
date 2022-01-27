@@ -15,12 +15,13 @@ nltk
 textblob
 autopep8
 matplotcheck
+Flask
+gunicorn==20.0.4
+uwsgi
 nbgrader
 nbclean
 cudnn
 streamlit
-Flask
-gunicorn==20.0.4
-uwsgi
+
 
 
