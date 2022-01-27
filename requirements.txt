@@ -1,26 +1,7 @@
-﻿
-numpy
-matplotlib
-seaborn
-beautifulsoup4
-pandas
-XlsxWriter
-xlwt
-xlrd
-opencv-python
-openpyxl
-requests
-pathlib
-nltk
-textblob
-autopep8
-matplotcheck
-Flask
-gunicorn==20.0.4
-uwsgi
-nbgrader
-nbclean
-streamlit
-
-
-
+Pillow==6.2.2
+tensorflow==2.6.0 # CPU version
+#tensorflow-gpu==2.6.0 # GPU version
+scikit-image==0.14.2
+imageio==2.5.0
+tf_slim==1.1.0
+# numpy and scipy fixed by tensorflow version
