@@ -17,9 +17,6 @@ autopep8
 matplotcheck
 nbgrader
 nbclean
-tensorflow
-tensorflow-gpu
-scikit-learn
 cudnn
 streamlit
 Flask
