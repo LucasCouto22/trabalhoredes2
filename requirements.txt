@@ -20,7 +20,6 @@ nbclean
 tensorflow
 tensorflow-gpu
 scikit-learn
-opencv
 cudnn
 streamlit
 Flask
