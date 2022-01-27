@@ -19,7 +19,7 @@ Flask
 gunicorn==20.0.4
 uwsgi
 nbgrader
-nbclean
+
 cudnn
 streamlit
 
